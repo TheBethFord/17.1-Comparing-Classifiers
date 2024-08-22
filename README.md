@@ -39,6 +39,9 @@ I then ran a Lasso regression to see if there were significant non zero variable
 - Ridge model was the best performing model, indicating that the larger price values may need to be handled differently
 - The R2 was only .3186 indiacting that this model may only be identifying approximately one-third of the drivers for this model.
 
+![Picture of a bar chart showing linear SVM is the best choice.](/images/ModelPerformance.png)
+
+
 **Coefficients**
 - Insights that came out of this include that the duration of a call was more important on seccess of a term deposit than the toal time with frequency. Amount of time that have gone between. 
 
