@@ -9,7 +9,7 @@ If you want to contact me you can reach me at contactbethford@gmail.com
   
   
 ## Files
-* 17.1.ipynb - Main python script with full charting and data
+* Practical_17.1.ipynb - Main python script with full charting and data
 * images/ModelPerformance.png
 * images/PCA_Chart.png
 * images/CorrelationHeatMap.png
@@ -26,7 +26,7 @@ I then ran a Lasso regression to see if there were significant non zero variable
 
 
 **Modeling:**
-- 45,211 records
+- 44,396 records
 - Variables - Top Features, ['age','duration', 'totalTime', 'marital_single', 'marital_married', 'y']
 - I ran five different classifier models (LogisticRegression(2), DecionTrees, KNearestNeighbor, SupportVectorMachines )
 - I ran cross validation on the strongest model of SVM, which validated the accuaracy scoresa 
