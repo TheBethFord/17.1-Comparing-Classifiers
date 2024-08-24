@@ -35,15 +35,15 @@ I then ran a Lasso regression to see if there were significant non zero variable
 
 
 **Overall Findings**
-- While Decisions Trees had the highest accuracy at .886, the F1 score is twice as high with the Vector Machine using linear kernels as we want to take a balanced approach to predict who will book a term of deposit.  Recall is not as import as I have reduced the risk in removing the default records. 
+- While Decisions Trees had the highest accuracy at .886, the F1 score is twice as high with the Support Vector Machine using linear kernels as we want to take a balanced approach to predict who will book a term of deposit.  Recall is not as import as I have reduced the risk in removing the default records. 
 
 ![Picture of a bar chart showing linear SVM is the best choice.](/images/ModelPerformance.png)
 
 
 
 ## Recommendations
-- TBD
-- TBD
-- TBD
-- TBD 
-- TBD
+- 
+- Rank and score leads according to the SVM classifier model.  Age and Single Marital status will have the most positive impact. 
+- After 2.5 contacts, people stop converting.
+- The longer the call duration, the better chance that there will be a conversion, especially with a younger demographic.
+- Work with the business to understand why they have so many contacts in the summer months.  With the cap of 2.5 they might concentrate more on the duration of call with younger prospects. 
