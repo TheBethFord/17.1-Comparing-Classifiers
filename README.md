@@ -42,7 +42,6 @@ I then ran a Lasso regression to see if there were significant non zero variable
 
 
 ## Recommendations
-- 
 - Rank and score leads according to the SVM classifier model.  Age and Single Marital status will have the most positive impact. 
 - After 2.5 contacts, people stop converting.
 - The longer the call duration, the better chance that there will be a conversion, especially with a younger demographic.
